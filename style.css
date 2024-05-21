@@ -73,7 +73,7 @@ h6 {
 }
 .nav-scroll {
 	background: #fff;
-	-webkit-box-shadow: 0 1px 8px 3px rgba(0, 0, 0, 0.0509803922);
+	-webkit-box-shadow: 0 1px 8px 3px rgba(255, 255, 255, 0.051);
 	box-shadow: 0 1px 8px 3px rgba(0, 0, 0, 0.0509803922);
 	-webkit-transition: all .4s ease;
 	transition: all .4s ease;
@@ -99,7 +99,7 @@ h6 {
 }
 .banner {
 	background: #2388ed;
-	background: linear-gradient(to left, #2388ed, #2388edc5);
+	background: linear-gradient(to left, #4b9dee, #0051fff8);
 	padding:100px 0px;
 	position:relative;
 }
@@ -155,6 +155,7 @@ h6 {
 .sectioner-header {
 	width:69%;
 	margin:0 auto;
+	color: #000;
 }
 .line {
 	height: 2px;
@@ -173,7 +174,7 @@ h6 {
 	margin-left: -75px;
 }
 .sectioner-header p {
-	color:#040404;
+	color: #080808;
 	font-size: 17px;
 }
 .section-content {
@@ -188,8 +189,8 @@ h6 {
 	width: 135px;
 	height: 135px;
 	border-radius: 100px;
-	background: 
-	background:  linear-gradient(to left, #60d2ff, #cd9ffa);
+	background: #ffffff;
+	background:  linear-gradient(to left,#002fff,#60d2ff);
 	color: #ffffff;
 	font-size: 50px;
 	line-height: 135px;
@@ -205,17 +206,18 @@ h6 {
 	margin: 0 auto;
 }
 .about-btn {
-	color: #2388ed;
+	color: #000000;
+	background: #ffffff;
 	padding: 10px 40px;
-	border: 2px solid #2388ed;
+	border: 2px solid #ffffff;
 	border-radius: 7px;
 	margin-top: 30px;
 	display: inline-block;
 	font-size: 18px;
 }
 .about-btn:hover {
-	background:#2388ed;
-	color:#ffffff;
+	background:#ffffff;
+	color:#00a2ff;
 	text-decoration:none;
 }
 .video-section {
@@ -299,10 +301,10 @@ h6 {
 	width: 50px;
 	height: 50px;
 	border-radius: 100px;
-	color: rgba(112, 206, 244, 0.806);
+	color: rgba(255, 255, 255, 0.806);
 	font-size: 18px;
 	line-height: 50px;
-	border: 1px solid rgba(112, 206, 244, 0.806);
+	border: 1px solid rgba(255, 255, 255, 0.806);
 }
 .team {
 	background: #fafafa;
@@ -323,7 +325,7 @@ h6 {
 }
 .testimonial {
 	background: #60d2ff;
-	background: linear-gradient(to left, #60d2ff, #002fff);
+	background: linear-gradient(to left, #60d2ff, #002df8);
 	padding:100px 0px;
 	position:relative;
 }
@@ -436,14 +438,14 @@ input {
 	border-radius: 2rem;
 	border: 0;
 	background: #60d2ff;
-	background: linear-gradient(to left, #60d2ff, #cd9ffa);
+	background: linear-gradient(to left, #60d2ff, #001eff);
 	cursor:pointer;
 }
 .contact-info {
 	padding: 2rem 2rem 1rem;
 	border-radius: 8px;
 	background: #fdfdfd;
-	background: linear-gradient(to left, #60d2ff, #90a7f2);
+	background: linear-gradient(to left, #60d2ff, #002eff);
 }
 .contact-item {
 	margin:23px 0px;
